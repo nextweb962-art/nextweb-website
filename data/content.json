@@ -1,0 +1,39 @@
+{
+  "stats": {
+    "projects": "15",
+    "clients": "10",
+    "onTime": "60"
+  },
+  "projects": [
+    {
+      "name": "دار المخمل",
+      "tag": "كاتالوجات",
+      "description": "محل لبيع الكتلوجات",
+      "image": "/uploads/project-1790898439663-qxtuzt.png",
+      "link": "https://cataloge-bet-al-mocmal.vercel.app/"
+    },
+    {
+      "name": "Fire",
+      "tag": "test",
+      "description": "test",
+      "link": "https://menu-fier.vercel.app/",
+      "image": "/uploads/project-1790472833447-lcgz6b.png"
+    },
+    {
+      "name": "Peak Fitness",
+      "tag": "Landing Page",
+      "description": "High-converting landing page for a gym membership offer."
+    },
+    {
+      "name": "MediCare Plus",
+      "tag": "Clinic Website",
+      "description": "Appointment booking and services for a medical clinic."
+    },
+    {
+      "name": "fire menu",
+      "tag": "food",
+      "description": "s",
+      "link": "https://menu-fier.vercel.app/"
+    }
+  ]
+}

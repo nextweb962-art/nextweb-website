@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 36" fill="none">
+  <defs>
+    <linearGradient id="nw-blue" x1="6" y1="33" x2="21" y2="11" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#38bdf8"/>
+      <stop offset="1" stop-color="#2563eb"/>
+    </linearGradient>
+    <linearGradient id="nw-gold" x1="21" y1="33" x2="37" y2="7" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#a78bfa"/>
+      <stop offset="0.45" stop-color="#d4b86a"/>
+      <stop offset="1" stop-color="#f0d9a0"/>
+    </linearGradient>
+  </defs>
+  <rect width="40" height="36" rx="8" fill="#0f1e3d"/>
+  <g transform="translate(4 3.5) scale(0.9)">
+    <g stroke="url(#nw-gold)" stroke-width="1.3" opacity="0.85">
+      <circle cx="22.5" cy="12" r="9.5"/>
+      <ellipse cx="22.5" cy="12" rx="4" ry="9.5"/>
+      <path d="M13.5 9h18M13.5 15h18"/>
+    </g>
+    <g fill="url(#nw-gold)">
+      <circle cx="22.5" cy="2.5" r="1.25"/>
+      <circle cx="16" cy="9" r="1.05"/>
+      <circle cx="29" cy="9" r="1.05"/>
+      <circle cx="15" cy="15" r="1.05"/>
+      <circle cx="30" cy="15" r="1.05"/>
+      <circle cx="22.5" cy="21.5" r="1.25"/>
+    </g>
+    <path d="M2.5 30 10 10.5 16 25.5" stroke="url(#nw-blue)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M16 25.5 31 9.5" stroke="url(#nw-gold)" stroke-width="3" stroke-linecap="round"/>
+    <path d="M33.5 6.5 26.1 9.3 31.3 14.1 Z" fill="url(#nw-gold)"/>
+  </g>
+</svg>
