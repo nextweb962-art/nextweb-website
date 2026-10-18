@@ -12,7 +12,11 @@ export async function saveContent(content: SiteContent) {
     throw new Error("Unauthorized");
   }
   await writeRawContent(content);
-  revalidatePath("/en");
-  revalidatePath("/ar");
-  revalidatePath("/admin962");
+  try {
+    revalidatePath("/en");
+    revalidatePath("/ar");
+    revalidatePath("/admin962");
+  } catch (error) {
+    console.error("revalidatePath failed:", error);
+  }
 }

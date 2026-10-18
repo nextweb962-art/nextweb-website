@@ -16,6 +16,8 @@ function formatPlus(value: string, locale: Locale) {
   return locale === "ar" ? `+${value}` : `${value}+`;
 }
 
+export const revalidate = 30;
+
 export default async function Home({
   params,
 }: PageProps<"/[lang]">) {
