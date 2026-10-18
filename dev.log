@@ -6,93 +6,20 @@
 - Local:         http://localhost:2000
 - Network:       http://26.13.85.154:2000
 - Environments: .env.local
-✓ Ready in 978ms
-✓ Running next.config.ts took 60ms
+✓ Ready in 6.2s
+✓ Running next.config.ts took 366ms
 - Experiments (use with caution):
   ✓ globalNotFound
 
-[browser] ⨯ unhandledRejection: Error: No link element found for chunk /_next/static/chunks/src_app_globals_162hn9o.css
-    at new Promise (<anonymous>)
-[browser] ⨯ unhandledRejection: Error: No link element found for chunk /_next/static/chunks/src_app_globals_162hn9o.css
-    at new Promise (<anonymous>)
- GET /en 200 in 3.0s (next.js: 861ms, proxy.ts: 476ms, generate-params: 961ms, application-code: 733ms)
- GET /ar 200 in 546ms (next.js: 24ms, proxy.ts: 11ms, generate-params: 14ms, application-code: 496ms)
- GET /ar 200 in 407ms (next.js: 34ms, proxy.ts: 12ms, generate-params: 15ms, application-code: 346ms)
- GET /ar 200 in 393ms (next.js: 13ms, proxy.ts: 8ms, generate-params: 10ms, application-code: 361ms)
- GET /ar 200 in 337ms (next.js: 13ms, proxy.ts: 8ms, generate-params: 9ms, application-code: 307ms)
- GET /ar 200 in 440ms (next.js: 19ms, proxy.ts: 13ms, generate-params: 11ms, application-code: 397ms)
- GET /en 200 in 362ms (next.js: 14ms, proxy.ts: 11ms, generate-params: 9ms, application-code: 329ms)
- GET /en 200 in 443ms (next.js: 22ms, proxy.ts: 18ms, generate-params: 11ms, application-code: 392ms)
- GET /en 200 in 354ms (next.js: 13ms, proxy.ts: 8ms, generate-params: 9ms, application-code: 324ms)
- GET /ar 200 in 386ms (next.js: 16ms, proxy.ts: 10ms, generate-params: 10ms, application-code: 351ms)
- GET /ar 200 in 340ms (next.js: 13ms, proxy.ts: 7ms, generate-params: 9ms, application-code: 312ms)
- GET /en 200 in 348ms (next.js: 12ms, proxy.ts: 7ms, generate-params: 8ms, application-code: 321ms)
- GET /en 200 in 353ms (next.js: 12ms, proxy.ts: 6ms, generate-params: 8ms, application-code: 327ms)
- GET /en 200 in 327ms (next.js: 12ms, proxy.ts: 6ms, generate-params: 9ms, application-code: 299ms)
- GET /ar 200 in 311ms (next.js: 13ms, proxy.ts: 6ms, generate-params: 8ms, application-code: 283ms)
- GET /ar 200 in 392ms (next.js: 14ms, proxy.ts: 10ms, generate-params: 9ms, application-code: 359ms)
- GET /ar 200 in 355ms (next.js: 12ms, proxy.ts: 8ms, generate-params: 8ms, application-code: 327ms)
- GET /ar 200 in 339ms (next.js: 11ms, proxy.ts: 7ms, generate-params: 9ms, application-code: 311ms)
- GET /admin962 200 in 285ms (next.js: 156ms, proxy.ts: 10ms, application-code: 118ms)
- POST /admin962 200 in 62ms (next.js: 10ms, proxy.ts: 10ms, application-code: 42ms)
-  └─ ƒ verifyPassword("123456789") in 1ms src/app/admin962/actions.ts
- POST /admin962 200 in 27ms (next.js: 9ms, proxy.ts: 6ms, application-code: 12ms)
-  └─ ƒ verifyPassword("123456") in 0ms src/app/admin962/actions.ts
- POST /admin962 200 in 26ms (next.js: 8ms, proxy.ts: 6ms, application-code: 12ms)
-  └─ ƒ verifyPassword("123456") in 0ms src/app/admin962/actions.ts
- POST /admin962 200 in 27ms (next.js: 8ms, proxy.ts: 6ms, application-code: 13ms)
-  └─ ƒ verifyPassword("123456") in 0ms src/app/admin962/actions.ts
- POST /admin962 200 in 26ms (next.js: 8ms, proxy.ts: 7ms, application-code: 12ms)
-  └─ ƒ verifyPassword("123456") in 0ms src/app/admin962/actions.ts
- POST /admin962 200 in 31ms (next.js: 8ms, proxy.ts: 7ms, application-code: 15ms)
-  └─ ƒ verifyPassword("nextweb962 ") in 0ms src/app/admin962/actions.ts
- POST /admin962 200 in 31ms (next.js: 8ms, proxy.ts: 8ms, application-code: 15ms)
-  └─ ƒ verifyPassword("nextweb962 ") in 0ms src/app/admin962/actions.ts
- POST /admin962 200 in 26ms (next.js: 8ms, proxy.ts: 6ms, application-code: 12ms)
-  └─ ƒ verifyPassword("nextweb962 ") in 0ms src/app/admin962/actions.ts
- POST /admin962 200 in 28ms (next.js: 7ms, proxy.ts: 8ms, application-code: 13ms)
-  └─ ƒ verifyPassword("nextweb962 ") in 0ms src/app/admin962/actions.ts
- POST /admin962 200 in 29ms (next.js: 7ms, proxy.ts: 7ms, application-code: 15ms)
-  └─ ƒ verifyPassword("nextweb962 ") in 0ms src/app/admin962/actions.ts
- POST /admin962 200 in 53ms (next.js: 8ms, proxy.ts: 6ms, application-code: 39ms)
-  └─ ƒ verifyPassword("nextweb962") in 3ms src/app/admin962/actions.ts
- GET /admin962 200 in 54ms (next.js: 10ms, proxy.ts: 7ms, application-code: 38ms)
-[browser] Image with src "/uploads/project-1790472833447-lcgz6b.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[browser] Image with src "/uploads/project-1790898439663-qxtuzt.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-✓ Compiled in 1531ms
- GET /admin962 200 in 65ms (next.js: 22ms, proxy.ts: 7ms, application-code: 36ms)
-✓ Compiled in 686ms
- GET /admin962 200 in 102ms (next.js: 36ms, proxy.ts: 10ms, application-code: 56ms)
-✓ Compiled in 605ms
- GET /admin962 200 in 67ms (next.js: 21ms, proxy.ts: 7ms, application-code: 39ms)
- GET /admin962 200 in 66ms (next.js: 9ms, proxy.ts: 6ms, application-code: 51ms)
- GET /admin962 200 in 69ms (next.js: 23ms, proxy.ts: 7ms, application-code: 39ms)
- GET /admin962 200 in 79ms (next.js: 27ms, proxy.ts: 8ms, application-code: 44ms)
-✓ Compiled in 123ms
- GET /admin962 200 in 118ms (next.js: 22ms, proxy.ts: 20ms, application-code: 77ms)
- GET /admin962 200 in 69ms (next.js: 12ms, proxy.ts: 10ms, application-code: 47ms)
- GET /ar 200 in 510ms (next.js: 26ms, proxy.ts: 8ms, generate-params: 9ms, application-code: 466ms)
-[browser] ⨯ unhandledRejection: Error: No link element found for chunk /_next/static/chunks/src_app_globals_162hn9o.css
-    at new Promise (<anonymous>)
-[browser] ⨯ unhandledRejection: Error: No link element found for chunk /_next/static/chunks/src_app_globals_162hn9o.css
-    at new Promise (<anonymous>)
- GET /admin962 200 in 112ms (next.js: 14ms, proxy.ts: 9ms, application-code: 89ms)
-[browser] Image with src "/uploads/project-1790898439663-qxtuzt.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[browser] Image with src "/uploads/project-1790472833447-lcgz6b.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
- POST /admin962 200 in 87ms (next.js: 10ms, proxy.ts: 8ms, application-code: 69ms)
-  └─ ƒ saveContent({"projects":["[Object]","[Object]","[Object]","... 1 item not stringified"],"stats":{"clients":"10","onTime":"60","projects":"15"}}) in 9ms src/app/actions.ts
- POST /admin962 200 in 68ms (next.js: 9ms, proxy.ts: 9ms, application-code: 50ms)
-  └─ ƒ saveContent({"projects":["[Object]","[Object]","[Object]","... 1 item not stringified"],"stats":{"clients":"10","onTime":"60","projects":"15"}}) in 5ms src/app/actions.ts
- POST /admin962 200 in 63ms (next.js: 10ms, proxy.ts: 6ms, application-code: 48ms)
-  └─ ƒ saveContent({"projects":["[Object]","[Object]","[Object]","... 1 item not stringified"],"stats":{"clients":"10","onTime":"60","projects":"15"}}) in 5ms src/app/actions.ts
- POST /admin962 200 in 64ms (next.js: 9ms, proxy.ts: 6ms, application-code: 49ms)
-  └─ ƒ saveContent({"projects":["[Object]","[Object]","[Object]","... 1 item not stringified"],"stats":{"clients":"10","onTime":"60","projects":"15"}}) in 6ms src/app/actions.ts
- POST /admin962 200 in 61ms (next.js: 9ms, proxy.ts: 7ms, application-code: 45ms)
-  └─ ƒ logout() in 4ms src/app/admin962/actions.ts
- GET /admin962 200 in 59ms (next.js: 8ms, proxy.ts: 7ms, application-code: 44ms)
- POST /admin962 200 in 85ms (next.js: 9ms, proxy.ts: 9ms, application-code: 67ms)
-  └─ ƒ verifyPassword("nextweb962") in 1ms src/app/admin962/actions.ts
- GET /admin962 200 in 60ms (next.js: 10ms, proxy.ts: 9ms, application-code: 41ms)
- GET /ar 307 in 20ms (proxy.ts: 6ms)
- GET /ar 200 in 498ms (next.js: 33ms, proxy.ts: 31ms, generate-params: 0.1ms, application-code: 434ms)
- GET /ar 200 in 730ms (next.js: 14ms, proxy.ts: 8ms, generate-params: 8ms, application-code: 701ms)
+○ Compiling /admin962 ...
+ GET /admin962 200 in 13.3s (next.js: 12.3s, proxy.ts: 629ms, application-code: 276ms)
+⚠ Found a change in next.config.ts. Restarting the server to apply the changes...
+▲ Next.js 16.3.6 (Turbopack)
+- Local:         http://localhost:2000
+- Network:       http://26.13.85.154:2000
+- Environments: .env.local
+✓ Ready in 1581ms
+✓ Running next.config.ts took 118ms
+- Experiments (use with caution):
+  ✓ globalNotFound
+

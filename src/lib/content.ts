@@ -1,5 +1,4 @@
-import { readFile } from "node:fs/promises";
-import path from "node:path";
+import { readRawContent } from "@/lib/store";
 
 export type ProjectItem = {
   name: string;
@@ -20,26 +19,21 @@ export type SiteContent = {
   projects: ProjectItem[];
 };
 
-const dataFile = path.join(process.cwd(), "data", "content.json");
-
 export async function readContent(): Promise<SiteContent | null> {
-  try {
-    const raw = await readFile(dataFile, "utf8");
-    const parsed = JSON.parse(raw) as Partial<SiteContent>;
-    const projects = Array.isArray(parsed.projects)
-      ? parsed.projects.filter(
-          (project) =>
-            typeof project?.name === "string" &&
-            typeof project?.tag === "string" &&
-            typeof project?.description === "string"
-        )
-      : [];
-    if (!parsed.stats && projects.length === 0) return null;
-    return {
-      stats: parsed.stats ?? { projects: "", clients: "", onTime: "" },
-      projects,
-    };
-  } catch {
-    return null;
-  }
+  const parsed = await readRawContent();
+  if (!parsed || typeof parsed !== "object") return null;
+  const data = parsed as Partial<SiteContent>;
+  const projects = Array.isArray(data.projects)
+    ? data.projects.filter(
+        (project) =>
+          typeof project?.name === "string" &&
+          typeof project?.tag === "string" &&
+          typeof project?.description === "string"
+      )
+    : [];
+  if (!data.stats && projects.length === 0) return null;
+  return {
+    stats: data.stats ?? { projects: "", clients: "", onTime: "" },
+    projects,
+  };
 }

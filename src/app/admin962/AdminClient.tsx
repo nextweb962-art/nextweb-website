@@ -459,7 +459,7 @@ export default function AdminClient({
                       alt=""
                       width={96}
                       height={54}
-                      className="h-14 w-24 rounded-lg border border-slate-200 object-cover"
+                      className="h-auto w-24 rounded-lg border border-slate-200 object-cover"
                     />
                     <button
                       type="button"
